@@ -35,9 +35,9 @@ stage ('dockerimageBuild')
 {
     steps
     {
-       sh "cd /home/ubuntu/workspace/devops8th/account-service ; sudo  docker login -uankit1111 -pmiet@1234 "
-        sh "cd /home/ubuntu/workspace/devops8th/account-service ; sudo docker tag account-service ankit1111/account-service "
-        sh "cd /home/ubuntu/workspace/devops8th/account-service ; sudo docker push ankit1111/account-service  "
+       sh "cd /home/ubuntu/workspace/devops8th/account-service ; sudo  docker login -unawsdocker9 -p#neelima123 "
+        sh "cd /home/ubuntu/workspace/devops8th/account-service ; sudo docker tag account-service nawsdocker9/account-service "
+        sh "cd /home/ubuntu/workspace/devops8th/account-service ; sudo docker push nawsdocker9/account-service  "
         
         
     }
